@@ -88,9 +88,9 @@ jobs:
       run: |
         mkdir ${GITHUB_WORKSPACE}/bin
         cd ${GITHUB_WORKSPACE}/bin
-        curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-        chmod a+x ~/bin/repo
-        export PATH=~/bin:$PATH
+        curl https://storage.googleapis.com/git-repo-downloads/repo > ${GITHUB_WORKSPACE}/bin/repo
+        chmod a+x ${GITHUB_WORKSPACE}/bin/repo
+        export PATH=${GITHUB_WORKSPACE}/bin:$PATH
         
     - name: Init Repo
       run: |
