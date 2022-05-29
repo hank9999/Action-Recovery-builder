@@ -1,18 +1,11 @@
 # 使用 Github Action 编译 Recovery
-```
-支持 OFRP、SHRP、TWRP 编译制作
-```
+
 ---
 
 ## 更新说明
 ```
-= 2021/10/29: 
-- 重构 2.0 版本
-- 完全重构使用逻辑，降低使用难度
-- 优化参数传递部分，现在可以同时运行多个 Worker
-- TWRP 编译测试通过
-- OFRP 编译测试通过
-- SHRP 编译测试通过
+2022.05.30: 
+- 现在可以用来编译最新的 twrp-12.1 分支了
 ```
 
 -----
@@ -21,13 +14,13 @@
 
 | 名称 | 描述 | 示例 |
 | ------------ | -------------------- | ------------ |
-| `LIBRARY_NAME` | 源码类型 | omni |
-| `LIBRARY_URL` | 源码地址 | https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git |
-| `LIBRARY_BRANCH` | 源码分支 | twrp-9.0 |
-| `DEVICE_URL` | 设备地址 | https://github.com/azwhikaru/twrp_device_xiaomi_archytas |
-| `DEVICE_BRANCH` | 设备分支 | twrp-9.0 |
-| `DEVICE_PATH` | 设备位置 | device/xiaomi/Archytas |
-| `DEVICE_NAME` | 机型名称 | Archytas |
+| `LIBRARY_NAME` | 源码类型 | twrp |
+| `LIBRARY_URL` | 源码地址 | https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git |
+| `LIBRARY_BRANCH` | 源码分支 | twrp-12.1 |
+| `DEVICE_URL` | 设备树地址 | https://github.com/YuKongA/recovery_device_xiaomi_rubens.git |
+| `DEVICE_BRANCH` | 设备树分支 | twrp-12 |
+| `DEVICE_PATH` | 设备树位置 | device/xiaomi/rubens |
+| `DEVICE_NAME` | 机型名称 | rubens |
 
 -----
 
@@ -48,11 +41,4 @@
 -----
 
 ## 编译结果
-可以在 [Release](../../releases) 下载
-
------
-## 备注
-
-#### TeamWin Recovery Project: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
-#### OrangeFox Recovery Project: https://gitlab.com/OrangeFox/Manifest.git
-#### SKYHAWK Recovery Project: https://github.com/SHRP/platform_manifest_twrp_omni.git
+可以在 [actions](../../actions) 下载
