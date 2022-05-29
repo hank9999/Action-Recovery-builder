@@ -21,7 +21,7 @@
 | `DEVICE_BRANCH` | 设备树分支 | twrp-12 |
 | `DEVICE_PATH` | 设备树位置 | device/xiaomi/rubens |
 | `DEVICE_NAME` | 机型代号 | rubens |
-| `BUILD_TARGET` | 构建类型 | recoveryimage \ bootimage \ vendorbootimage |
+| `BUILD_TARGET` | 构建目标 | recoveryimage \ bootimage \ vendorbootimage |
 
 -----
 
