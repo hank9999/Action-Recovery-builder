@@ -40,15 +40,6 @@ on:
         - recoveryimage
         - bootimage
         - vendorbootimage
-      REPOPICK_FSCRYPT: wip:
-        description: 'BUILD_TARGET'
-        required: true
-        default: 'vendorbootimage'
-        type: choice
-        options:
-        - recoveryimage
-        - bootimage
-        - vendorbootimage
 
 jobs:
   build:
