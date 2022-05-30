@@ -18,7 +18,7 @@ on:
       DEVICE_URL:
         description: 'DEVICE_URL'
         required: true
-        default: 'https://github.com/YuKongA/recovery_device_xiaomi_rubens.git'
+        default: 'https://github.com/YuKongA/device_xiaomi_rubens-TWRP.git'
       DEVICE_BRANCH:
         description: 'DEVICE_BRANCH'
         required: true
