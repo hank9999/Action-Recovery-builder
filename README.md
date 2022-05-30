@@ -17,7 +17,7 @@
 | `LIBRARY_NAME` | 源码类型 | twrp |
 | `LIBRARY_URL` | 源码地址 | https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git |
 | `LIBRARY_BRANCH` | 源码分支 | twrp-12.1 |
-| `DEVICE_URL` | 设备地址 | https://github.com/YuKongA/recovery_device_xiaomi_rubens.git |
+| `DEVICE_URL` | 设备地址 | https://github.com/YuKongA/device_xiaomi_rubens-TWRP.git |
 | `DEVICE_BRANCH` | 设备分支 | twrp-12 |
 | `DEVICE_PATH` | 设备位置 | device/xiaomi/rubens |
 | `DEVICE_NAME` | 设备代号 | rubens |
