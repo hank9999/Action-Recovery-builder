@@ -123,6 +123,6 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         path: |
-          ${GITHUB_WORKSPACE}/workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/*.img
-          ${GITHUB_WORKSPACE}/workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/*.zip
+          workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/*.img
+          workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/*.zip
         name: ${{ github.event.inputs.DEVICE_NAME }}
