@@ -3,7 +3,7 @@
 ---
 
 
-**如果你的 DT 启用了解密相关，请 Revert 最后一个提交以成功编译！**
+**如果你的 DT 启用了解密相关，请 Revert [该提交](https://github.com/YuKongA/Action-Recovery-builder/commit/29ddaea3f93c01bb8033a96585acd3a9d8bce03c)以成功编译！**
 
 ## 更新说明
 ```
